@@ -279,7 +279,6 @@
             // tabla
             // 
             this.tabla.AllowUserToAddRows = false;
-            this.tabla.AllowUserToDeleteRows = false;
             this.tabla.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.tabla.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.i,
@@ -299,21 +298,18 @@
             this.i.HeaderText = "Punto";
             this.i.Name = "i";
             this.i.ReadOnly = true;
-            this.i.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // x
             // 
             this.x.HeaderText = "X";
             this.x.Name = "x";
             this.x.ReadOnly = true;
-            this.x.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // y
             // 
             this.y.HeaderText = "Y";
             this.y.Name = "y";
             this.y.ReadOnly = true;
-            this.y.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // Inicio
             // 
